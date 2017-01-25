@@ -25,11 +25,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Turn Off"/>
-    <Button
-        android:id="@+id/discoverable"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Discoverable"/>
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/discoverable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discoverable"/>
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh"/>
+    </LinearLayout>
     <ListView
         android:id="@+id/list_id"
         android:layout_width="wrap_content"
